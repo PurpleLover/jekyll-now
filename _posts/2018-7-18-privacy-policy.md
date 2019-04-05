@@ -4,10 +4,10 @@ title: About Privacy Policy
 ---
 
 # Privacy Policy of HiNET
-* Last Modified: JULY 18, 2018
+* Last Modified: APRIL 05, 2019
 * Effective: JULY 18, 2018
 
-HiNET ("us", "we", or "our") operates the http://d-office.doji.vn/ website and the D-OFFICE mobile application (the "Service").
+HiNET ("us", "we", or "our") operates the http://hinet.com.vn/ website and the **Ebiz Office** mobile application (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
