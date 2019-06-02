@@ -80,17 +80,17 @@ Các chức năng bạn thường dùng và phải quan tâm nhất bao gồm:
 ### Đăng nhập
 Thêm `wp-admin` vào sau tên miền của bạn để truy cập vào trang quản trị website. Chẳng hạn đối với pechanoi thì tên miền sẽ là [pechanoi.edu.vn/wp-admin](https://pechanoi.edu.vn/wp-admin)
 
-![sign-in-link](../images/_hdsd_pechanoi/sign-in-link.png)
+![sign-in-link](../images/sign-in-link.png)
 
 Hãy đợi trình duyệt tải một lúc, sau đó form đăng nhập sẽ hiện ra, bạn điền tên đăng nhập và mật khẩu của mình rồi nhấn nút `Log in`.
 
-![sign-in-prompt](../images/_hdsd_pechanoi/sign-in-prompt.png)
+![sign-in-prompt](../images/sign-in-prompt.png)
 
 **Ghi chú trong hình**: tôi dùng tài khoản admin, nếu bạn dùng tài khoản khác thì hãy xem kĩ tên đăng nhập và mật khẩu của mình nhé. Và tuyệt đối không gửi mật khẩu đi lung tung.
 
 Nếu bạn nhập đúng mật khẩu, trang quản trị sẽ hiện ra như hình dưới. Hãy tập trung vào thanh công cụ phía bên trái.
 
-![dashboard-screen](../images/_hdsd_pechanoi/dashboard-screen.png)
+![dashboard-screen](../images/dashboard-screen.png)
 
 **Ghi chú**: Nếu bạn muốn backup bài viết thì tôi khuyên sử dụng tính năng backup mà bên hosting cung cấp, nó mạnh mẽ và hiệu quả hơn so với việc backup trên wordpress nói riêng.
 
@@ -98,31 +98,31 @@ Nếu bạn nhập đúng mật khẩu, trang quản trị sẽ hiện ra như h
 
 Trên thanh công cụ, chọn mục `Posts`, sau đó vào phần tìm kiếm để tìm đến _Template Post_ (là một cái template để viết bài mà tôi đã tạo sẵn)
 
-![post-list-1](../images/_hdsd_pechanoi/post-list-1.png)
+![post-list-1](../images/post-list-1.png)
 
 Sau khi clone xong, bạn sẽ được thành quả như này.
 
-![post-list-2](../images/_hdsd_pechanoi/post-list-2.png)
+![post-list-2](../images/post-list-2.png)
 
 Các tuỳ chỉnh trong `Quick Edit` sẽ hiện ra như sau:
 
-![post-quick-edit](../images/_hdsd_pechanoi/post-quick-edit.png)
+![post-quick-edit](../images/post-quick-edit.png)
 
 Chẳng hạn nếu tôi chọn tiêu đề như trên, thì sau khi chọn mục `All` thì bài viết mới sẽ hiện ra như sau:
 
-![post-list-3](../images/_hdsd_pechanoi/post-list-3.png)
+![post-list-3](../images/post-list-3.png)
 
 Màn hình Edit sẽ hiện lên như sau, kéo xuống tới mục `Featured Image` thì nhấn vào và thêm ảnh vào. Ảnh này sẽ xuất hiện ở trên bài viết khi nó được hiển thị ở danh sách trên trang. Việc thêm ảnh này sẽ khiến bài viết có điểm nhấn hơn khi độc giả liếc qua lần đầu (tức là sẽ có _ảnh - tiêu đề - mô tả ngắn gọn_ thay vì chỉ có _tiêu đề - mô tả ngắn gọn_)
 
-![post-edit-1](../images/_hdsd_pechanoi/post-edit-1.png)
+![post-edit-1](../images/post-edit-1.png)
 
 Sau khi đã chọn được một tấm ưng ý làm ảnh đại diện cho post của mình, hãy kéo lên và chọn vào nút `Save Draft` để lưu lại thành phẩm. Rồi sau đó chọn nút `Edit with Elementor` để đi tới giao diện chỉnh sửa post.
 
-![post-edit-2](../images/_hdsd_pechanoi/post-edit-2.png)
+![post-edit-2](../images/post-edit-2.png)
 
 Giao diện chỉnh sửa post sẽ có dạng như sau:
 
-![post-edit-elementor](../images/_hdsd_pechanoi/post-edit-elementor.png)
+![post-edit-elementor](../images/post-edit-elementor.png)
 
 **Luu ý**: Chỉ chỉnh sửa những phần mà được bôi đỏ trong hình. Không dây dưa vào phần khác. Để chỉnh sửa thì chỉ cần nhấn vào phần bôi bên phải, những thông tin cần thiết sẽ hiển thị ở cột bên trái, _nên nhấn và chỉnh sửa ở cột bên trái hơn là gõ trực tiếp nội dung lên cột bên phải_
 
@@ -130,7 +130,7 @@ Giao diện chỉnh sửa post sẽ có dạng như sau:
 
 Trên menu tay trái, chọn `Pages`, danh sách các pages hiện có sẽ hiện lên như hình. Về việc chỉnh sửa page thì y chang như cách chỉnh sửa post, cũng clone rồi chỉnh lại các nút...
 
-![page-list](../images/_hdsd_pechanoi/page-list.png)
+![page-list](../images/page-list.png)
 
 Các page chính (các page tôi được yêu cầu xây dựng, **bạn không nên chỉnh sửa lại layout của chúng nếu không cần thiết**) bao gồm:
 * Trang chủ
@@ -147,13 +147,13 @@ Các page khác, thường là các page con tôi đã đều bàn giao trong bu
 
 Để page hoạt động trơn tru, thì ta cần có các thành phần hỗ trợ này. Nếu bạn để ý, bạn không thể chỉnh sửa được menu và footer phải không? Để chỉnh lại chúng, bạn phải truy nhập vào `AE Templates` trên menu chính. Chi tiết như hình (các thành phần này đều được tạo ra và chỉnh sửa bằng Elementor nên bạn chỉ cần nắm vững cách sử dụng cơ bản mà tôi đã đính kèm trong phần tài liệu tham khảo là được):
 
-![ae-template](../images/_hdsd_pechanoi/ae-template.png)
+![ae-template](../images/ae-template.png)
 
 Việc sử dụng template như này sẽ cho phép bạn chỉnh sửa một lần và hiển thị trên mọi trang.
 
 Kế đến là `PopBoxes`, mục này sẽ quản lý mọi popbox hiển thị trên trang, như là cái bạn thấy ở trang chủ mỗi lần mở vào. Chi tiết xem trên ảnh.
 
-![popboxes](../images/_hdsd_pechanoi/popboxes.png)
+![popboxes](../images/popboxes.png)
 
 Ở mục `Templates`, bạn có thể lưu lại bất cứ template nào mà bạn tạo ra trong quá trình sử dụng Elementor, dù đó là Section hay Page, chi tiết bạn có thể xem trong hướng dẫn của Elementor.
 
@@ -163,7 +163,7 @@ Chọn `Appearance` trên thanh công cụ bên trái, bạn cần quan tâm và
   * Đối với Themes, tôi đã chọn Themes hỗ trợ cho Elementor là Astra rồi, bạn không cần thiết phải thay đổi Themes đâu
   * Đối với Menus, hãy làm như hình dưới
 
-![config-menu](../images/_hdsd_pechanoi/config-menu.png)
+![config-menu](../images/config-menu.png)
 
 Vậy là xong, với từng đó hướng dẫn, bạn đã có thể dùng được hầu hết mọi tính năng của website rồi. Các tính năng sau đây sẽ hướng dẫn bạn nâng cao hơn một chút, nhưng không khó đâu - yên tâm đi, và thường là những tính năng bạn ít khi phải động tay động chân lại nhiều hơn 2 lần.
 
@@ -204,7 +204,7 @@ Ngoài ra còn có một vài plugin khác như là _Really Simple SSL, reSmush.
 
 Để cài đặt, trước hết bạn nhấn vào `Plugins` trên thanh công cụ bên trái, màn hình hiển thị sẽ như sau:
 
-![plugin-list](../images/_hdsd_pechanoi/plugin-list.png)
+![plugin-list](../images/plugin-list.png)
 
 Như đã nói phía trên, với mỗi plugin cài thêm vào, bạn nên suy xét thật kỹ lưỡng xem nó có gây ảnh hưởng gì tới những thằng ma cũ không, có gây ảnh hưởng gì tới trang không, nếu không thì triển, nếu có thì suy xét hoặc tìm giải pháp khác nhé, đừng cố đấm ăn xôi kẻo đến lúc trang lại bị hỏng thì khó lòng mà dò lỗi lắm.
 
@@ -214,12 +214,12 @@ Như đã nói phía trên, với mỗi plugin cài thêm vào, bạn nên suy x
 
 Trước hết, chọn `Smart Slider` trên thanh công cụ. Giao diện hiển thị ra sẽ như thế này.
 
-![smart-slider-list](../images/_hdsd_pechanoi/smart-slider-list.png)
+![smart-slider-list](../images/smart-slider-list.png)
 
 Sau đó chọn tiếp trang slide mà bạn cần chỉnh sửa, nhấn chọn nút `Edit`. Trang slide hiện ra sẽ như thế này.
 
-![smart-slider-slide-1](../images/_hdsd_pechanoi/smart-slider-slide-1.png)
+![smart-slider-slide-1](../images/smart-slider-slide-1.png)
 
-![smart-slider-slide-2](../images/_hdsd_pechanoi/smart-slider-slide-2.png)
+![smart-slider-slide-2](../images/smart-slider-slide-2.png)
 
 **Lưu ý**: Như bạn thấy đó, việc chỉnh sửa một slide cũng đơn giản như lúc làm slide trên Powerpoint vậy. Tuy nhiên nếu bạn thấy việc nghĩ tiêu đề và chỉnh sửa các phần vẫn còn quá khó nhằn, thì tôi khuyên là chỉ nên dùng ảnh nền cho mọi slide thôi. Tức là bạn nhờ một designer nào đó, thiết kế cho bạn slide và chỉ cần đổ ảnh nền như ảnh đầu thôi.
