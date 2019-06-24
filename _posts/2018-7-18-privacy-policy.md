@@ -7,7 +7,7 @@ title: About Privacy Policy
 * Last Modified: APRIL 05, 2019
 * Effective: JULY 18, 2018
 
-HiNET ("us", "we", or "our") operates the http://hinet.com.vn/ website and the **Ebiz Office** mobile application (the "Service").
+HiNET ("us", "we", or "our") operates the http://hinet.com.vn/ website and the **EofficeVNIO** mobile application (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
