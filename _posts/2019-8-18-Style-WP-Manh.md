@@ -1,4 +1,7 @@
-# Hướng dẫn tút tát vẻ ngoài (đặc biệt dành cho Manh)
+---
+layout: post
+title: Hướng dẫn tút tát vẻ ngoài (đặc biệt dành cho Manh)
+---
 
 ## Lời nói đầu
 
