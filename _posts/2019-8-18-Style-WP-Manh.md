@@ -35,27 +35,25 @@ Thôi xạo lìn thế đủ rồi, bắt đầu thôi nhỉ?
 Đoạn code vẽ ra một dòng mới có dạng như sau:
 
 ```
+<!-- wp:columns -->
 <div class="wp-block-columns">
-  <div class="wp-block-column" style="flex-basis: 60%;">
-    <p style="text-align: left;">
-      <a href="https://vivi3010.wordpress.com/2019/04/10/phat-song-truc-tiep-sinh-hoat-cua-trai-dat-cuu-thien-giang/">
-        [HĐ] Phát sóng trực tiếp sinh hoạt của Trái Đất
-      </a>
-    </p>
-  </div>
-  <div class="wp-block-column" style="flex-basis: 40%;">
-    <div class="wp-block-button aligncenter is-style-default">
-      <figure class="wp-block-jetpack-rating-star" style="text-align: center;">
-        <span style="color: #f7777b;">★</span>
-        <span style="color: #f7777b;">★</span>
-        <span style="color: #f7777b;">★</span>
-        <span style="color: #f7777b;">★</span>
-        <span style="color: #f7777b;">★</span>
-        <span style="color: #f7777b;">★</span>
-      </figure>
-    </div>
-  </div>
-</div>
+  <!-- wp:column {"width":60} -->
+  <div class="wp-block-column" style="flex-basis:60%;">
+    <!-- wp:paragraph {"align":"left"} -->
+    <p style="text-align:left;">
+      <a href="https://vivi3010.wordpress.com/2019/04/10/phat-song-truc-tiep-sinh-hoat-cua-trai-dat-cuu-thien-giang/">[HĐ] Phát sóng trực tiếp sinh hoạt của Trái Đất</a>
+    </p><!-- /wp:paragraph -->
+  </div><!-- /wp:column -->
+
+  <!-- wp:column {"width":40} -->
+  <div class="wp-block-column" style="flex-basis:40%;">
+    <!-- wp:jetpack/rating-star {"rating":2,"color":"#f7777b","align":"center"} -->
+    <figure class="wp-block-jetpack-rating-star" style="text-align:center;">
+      <span style="color:#f7777b;">★</span>
+      <span style="color:#f7777b;">★</span>
+    </figure><!-- /wp:jetpack/rating-star -->
+  </div><!-- /wp:column -->
+</div><!-- /wp:columns -->
 ```
 
 #### Khái quát
