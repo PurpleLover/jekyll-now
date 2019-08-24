@@ -64,8 +64,7 @@ Nếu bạn chỉ quan tâm đến nội dung của dòng, thì hãy giữ nguy�
 
 #### Nội dung
 
-Để thay đổi tên truyện, hãy thay dòng `HĐ] Phát sóng trực tiếp sinh hoạt của Trái Đất` bằng tên truyện bạn muốn. Và đổi đường dẫn tới truyện đó trong phần `a href`.
-Đến đây, chắc hẳn bạn sẽ nghĩ, ơ thế giờ chưa có link đính kèm với truyện thì làm thế nào? Nếu chưa có thì đừng bọc tên truyện trong thẻ `<a></a>`, mà hãy bọc nó trong thẻ p ngoài cùng. Chẳng hạn như sau:
+Để thay đổi tên truyện, hãy thay dòng `HĐ] Phát sóng trực tiếp sinh hoạt của Trái Đất` bằng tên truyện bạn muốn. Và đổi đường dẫn tới truyện đó trong phần `a href`. Đến đây, chắc hẳn bạn sẽ nghĩ, ơ thế giờ chưa có link đính kèm với truyện thì làm thế nào? Nếu chưa có thì đừng bọc tên truyện trong thẻ `<a></a>`, mà hãy bọc nó trong thẻ p ngoài cùng. Chẳng hạn như sau:
 
 ```
 <p style="text-align: left;">
@@ -73,4 +72,8 @@ Nếu bạn chỉ quan tâm đến nội dung của dòng, thì hãy giữ nguy�
 </p>
 ```
 
-Để thay đổi số sao tương ứng với tên truyện, hãy nhòm vào trong thẻ `<figure>`, mỗi thẻ `<span>` tương ứng với 1 trong 5 sao. Muốn tăng giảm số sao chỉ cần thêm bớt thẻ span trong này thôi. Tôi đề nghị đến lúc này bạn nên dùng Ctrl C và Ctrl V thay vì gõ lại, vừa mất thì giờ mà vừa dễ bị sai.
+Để thay đổi số sao tương ứng với tên truyện, hãy nhòm vào trong thẻ `<figure>`, mỗi thẻ `<span>` tương ứng với 1 trong 5 sao. Muốn tăng giảm số sao thì cần thêm bớt thẻ span trong này và tăng giảm số `rating` trong phần comment.
+
+Chẳng hạn, trong ví dụ trên, có 2/5 sao bởi vì thông số `"rating":2` và có 2 thẻ `<span style="color:#f7777b;">★</span>` trong `<figure>`.
+
+Tôi đề nghị đến lúc này bạn nên dùng Ctrl C và Ctrl V thay vì gõ lại, vừa mất thì giờ mà vừa dễ bị sai.
