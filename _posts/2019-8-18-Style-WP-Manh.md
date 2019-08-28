@@ -77,3 +77,14 @@ Nếu bạn chỉ quan tâm đến nội dung của dòng, thì hãy giữ nguy�
 Chẳng hạn, trong ví dụ trên, có 2/5 sao bởi vì thông số `"rating":2` và có 2 thẻ `<span style="color:#f7777b;">★</span>` trong `<figure>`.
 
 Tôi đề nghị đến lúc này bạn nên dùng Ctrl C và Ctrl V thay vì gõ lại, vừa mất thì giờ mà vừa dễ bị sai.
+
+#### Styling
+
+Cả class `wp-block-columns` và `wp-block-column` đều có thuộc tính `margin-bottom`, nên nhiều lúc sẽ khiến cho danh sách trở nên rất thưa. Để tránh tình trạng này, hãy thêm vào style tương ứng với mỗi thẻ chứa 2 class này thuộc tính `margin-bottom: 0` là ổn.
+
+Chẳng hạn,
+
+`<div class="wp-block-columns" style="margin-bottom: 0">`
+`<div class="wp-block-column" style="flex-basis:60%; margin-bottom: 0">`
+
+**Ghi chú**: Lý do cách này được vì trong CSS, style inline tức là style đặt trong thẻ sẽ có độ ưu tiên cao hơn style đặt trong class.
